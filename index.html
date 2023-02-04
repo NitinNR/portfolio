@@ -1,13 +1,50 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 width=%22256%22 height=%22256%22 viewBox=%220 0 100 100%22><rect width=%22100%22 height=%22100%22 rx=%2220%22 fill=%22%233b3853%22></rect><text x=%2250%%22 y=%2250%%22 dominant-baseline=%22central%22 text-anchor=%22middle%22 font-size=%2290%22>👨‍🚀</text></svg>" />
-    <!-- <meta http-equiv="X-UA-Compatible" content="IE=edge"> -->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PortFolio3</title>
-</head>
-<body>
-    <h1>Test2</h1>
-</body>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+    <header>
+      <h1>My Portfolio</h1>
+      <nav>
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section id="about">
+        <h2>About Me</h2>
+        <p>I am a web developer with a passion for creating clean and efficient websites and applications.</p>
+      </section>
+      <section id="projects">
+        <h2>My Projects</h2>
+        <ul>
+          <li><a href="#">Project 1</a></li>
+          <li><a href="#">Project 2</a></li>
+          <li><a href="#">Project 3</a></li>
+        </ul>
+      </section>
+      <section id="contact">
+        <h2>Contact Me</h2>
+        <form>
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name"><br><br>
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email"><br><br>
+          <label for="message">Message:</label>
+          <textarea id="message" name="message"></textarea><br><br>
+          <input type="submit" value="Submit">
+        </form>
+      </section>
+    </main>
+    <footer>
+      <p>Copyright © 2022 My Portfolio</p>
+    </footer>
+  </body>
 </html>
+
